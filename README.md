@@ -1,8 +1,23 @@
 # Astroman
 
+## Demo
+
+![AstroMan Demo](demo.gif)
+
 ## Overview
 
 This project explored object modeling, affine transformation, and real time animation.
+
+**Note:** 
+
+This project uses WebGL starter framework code provided by the course instructor, including:
+
+- Matrix utilities
+- Shader setup
+- Shape initialization (Cube, Sphere, Cylinder, Cone)
+- Basic lighting framework
+
+All scene design, animation logic, hierarchical modeling, and object construction were implemented by myself, Thomas Platt.
 
 ## Features
 
@@ -42,19 +57,6 @@ This version auto-runs animation on load.
 - Frame-delta based animation (`dt`)
 - Transform stack usage
 
-## Starter Code Attribution
-
-This project uses WebGL starter framework code provided by the course instructor, including:
-
-- Matrix utilities
-- Shader setup
-- Shape initialization (Cube, Sphere, Cylinder, Cone)
-- Basic lighting framework
-
-All scene design, animation logic, hierarchical modeling, and object construction were implemented by Thomas Pietrovito.
-
----
-
 ## What I Learned
 
 - Hierarchical modeling using transformation stacks
@@ -62,3 +64,5 @@ All scene design, animation logic, hierarchical modeling, and object constructio
 - Procedural motion using sine functions
 - Scene organization in WebGL
 - Affine Transformations and basic Graphic Pipeline
+
+
